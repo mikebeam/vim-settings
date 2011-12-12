@@ -79,3 +79,4 @@ Public/
 Sites/
 corelibs/
 .Trash
+.vim/doc/tags
