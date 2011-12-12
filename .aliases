@@ -1,0 +1,52 @@
+alias ms        'screen -xR mike'
+alias ts        'screen -xR tesla.home -c /Users/mike/tesla_screenrc'
+alias gas       'screen -xR galaxy.home -c /Users/mike/galaxy_screenrc'
+alias gxtssh    '/usr/bin/ssh -F /Users/mike/.ssh/config-ssh1-gx -l poppop -i $HOME/.ssh/id_rsa mail2.gxt.com'
+alias sshgmg    'ssh -X -Y mbeam@rndbuild.gmgaxis.com'
+alias rmobj     'find . -name "*.o" -exec rm {} \;'
+alias path      'echo $PATH | tr ":" "\n"'
+alias ldpath    'echo $DYLD_LIBRARY_PATH | tr ":" "\n"'
+alias plist     'open -a /Developer/Applications/Utilities/Property\ List\ Editor.app'
+alias ldd       'otool -L'
+alias e         'open -a TextMate.app'
+alias M         'cvs diff \!*'
+alias smake     'make > /dev/null'
+
+# Other ways to do directory listings
+alias cll	'clear; ls -l'
+alias lc	'ls -GAhlk --color=always | more'
+alias la	'ls-F -a'
+alias cd	'cd \!*; ls-F'
+
+# Redefining some commonly used commands
+alias lo		'exit'
+alias cls		'clear'
+alias gcc 	'cc'
+alias j			'jobs'
+alias todo	'cat ./TODO'
+alias ftp	'ftp -i'
+alias vi    'mvim -f -c "au VimLeave * maca hide:"'
+
+# Directory stack shortcuts
+alias d		'dirs -v'
+alias pd	'pushd -v'
+alias pod 	'popd -v'
+
+# History aliases
+alias h		'history 10'
+alias hh	'history 20'
+
+# Directory shortcuts
+alias /		'cd /'
+alias -		'cd -'
+
+# netstat aliases
+alias inetstat	'netstat -f inet'
+alias afpstat	'netstat | grep afp'
+
+alias amnt_restart	'sudo kill -HUP `cat /var/run/automount.pid`'
+alias nfsd_restart  'sudo killall -HUP nfsd'
+
+alias ssu        'svn -u status'
+alias ss         'svn status'
+alias gs         'git status'
