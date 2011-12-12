@@ -1,4 +1,5 @@
 .CFUserTextEncoding
+.*.un~
 .DS_Store
 .Xauthority
 .aliases
@@ -77,4 +78,4 @@ Pictures/
 Public/
 Sites/
 corelibs/
-
+.Trash
