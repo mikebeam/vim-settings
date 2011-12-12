@@ -2,7 +2,6 @@
 .*.un~
 .DS_Store
 .Xauthority
-.aliases
 .bash_aliases
 .bash_history
 .cshrc

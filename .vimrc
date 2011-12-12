@@ -63,6 +63,7 @@ nnoremap <C-j> <C-w>j
 nnoremap <C-k> <C-w>k
 nnoremap <C-l> <C-w>l
 
+" Rainbow Parentheses
 nnoremap <leader>R :RainbowParenthesesToggle<cr>
 let g:rbpt_colorpairs = [
     \ ['brown',       'RoyalBlue3'],
@@ -83,6 +84,9 @@ let g:rbpt_colorpairs = [
     \ ['red',         'firebrick3'],
     \ ]
 let g:rbpt_max = 16
+
+" NERDTree
+nnoremap <leader>nt :NERDTree<cr>
 
 inoremap jj <ESC>
 
