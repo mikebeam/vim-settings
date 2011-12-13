@@ -47,3 +47,6 @@ alias nfsd_restart  'sudo killall -HUP nfsd'
 alias ssu        'svn -u status'
 alias ss         'svn status'
 alias gs         'git status'
+
+alias sc 'screen -dRR'
+
