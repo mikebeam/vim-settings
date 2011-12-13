@@ -14,11 +14,11 @@ set background=dark
 let g:colors_name="molokai"
 
 " Basic Layout {{{
-hi Normal          guifg=#F8F8F2 guibg=#1B1E1F
+hi Normal          guifg=#F8F8F2 guibg=#060526
 hi Folded          guifg=#666666 guibg=bg
-hi CursorLine                    guibg=#232728
-hi CursorColumn                  guibg=#232728
-hi ColorColumn                   guibg=#232728
+hi CursorLine                    guibg=#1F2034
+hi CursorColumn                  guibg=#1F2034
+hi ColorColumn                   guibg=#1F2034
 hi LineNr          guifg=#AAAAAA guibg=bg
 hi FoldColumn      guifg=#AAAAAA guibg=bg
 hi VertSplit       guifg=#AAAAAA guibg=bg gui=none
@@ -27,7 +27,7 @@ hi IncSearch       guibg=#000000 guifg=#FF8D00
 " }}}
 " Syntax {{{
 hi Boolean         guifg=#AE81FF
-hi Comment         guifg=#5c7176
+hi Comment         guifg=#5c7176 gui=italic
 hi Character       guifg=#E6DB74
 hi Number          guifg=#AE81FF
 hi String          guifg=#E6DB74
@@ -43,7 +43,7 @@ hi Identifier      guifg=#FD971F
 " Diffs {{{
 hi DiffAdd                       guibg=#1e4313
 hi DiffChange      guifg=#89807D guibg=#322F2D
-hi DiffDelete      guifg=#ff0088 guibg=#1B1E1F
+hi DiffDelete      guifg=#ff0088 guibg=#060526
 hi DiffText                      guibg=#4A4340 gui=italic,bold
 " }}}
 " Cursor {{{
@@ -84,7 +84,7 @@ hi MoreMsg         guifg=#E6DB74
 hi Operator        guifg=#F92672
 
 " Completion Menu {{{
-hi Pmenu           guifg=#cccccc guibg=#232728
+hi Pmenu           guifg=#cccccc guibg=#1F2034
 hi PmenuSel        guifg=#000000 guibg=#AAF412
 hi PmenuSbar                     guibg=#131414
 hi PmenuThumb      guifg=#777777
