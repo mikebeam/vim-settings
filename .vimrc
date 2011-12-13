@@ -55,7 +55,8 @@ vnoremap <F1> <ESC>
 
 nnoremap ; :
 
-colorscheme molokai
+set background=dark
+colorscheme solarized
 
 nnoremap <leader>W :%s/\s\+$//<cr>:let @/=''<CR>
 nnoremap <leader>w <C-w>v<C-w>l
