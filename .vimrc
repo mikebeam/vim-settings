@@ -19,6 +19,7 @@ set showcmd
 set hidden
 set wildmenu
 set wildmode=list:longest
+set wildignore+=*.beam,*.o,.git
 set cursorline
 set ttyfast
 set ruler
@@ -109,3 +110,5 @@ set novisualbell
 "wrapping is annoying
 set nowrap
 
+" Command-T
+let g:CommandTMatchWindowReverse = 1
