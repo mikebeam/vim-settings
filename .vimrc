@@ -103,7 +103,6 @@ set statusline=%F%m%r%h%w\ %=[Type=%Y]\ [POS=%l,%v][%p%%]\ [LEN=%L]
 set autowrite
 "i like to undo
 set undolevels=500
-"show filename in tabs
 "bells are for the weak
 set noerrorbells
 set novisualbell
@@ -112,3 +111,7 @@ set nowrap
 
 " Command-T
 let g:CommandTMatchWindowReverse = 1
+
+" To switch between the currently open buffer and the previous one
+nnoremap <leader><leader> <c-^> 
+

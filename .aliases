@@ -5,7 +5,6 @@ alias path      'echo $PATH | tr ":" "\n"'
 alias ldpath    'echo $DYLD_LIBRARY_PATH | tr ":" "\n"'
 alias plist     'open -a /Developer/Applications/Utilities/Property\ List\ Editor.app'
 alias ldd       'otool -L'
-alias e         'mvim -f -c "au VimLeave * maca hide:"'
 alias M         'cvs diff \!*'
 alias smake     'make > /dev/null'
 
