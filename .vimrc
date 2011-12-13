@@ -58,6 +58,7 @@ nnoremap ; :
 set background=dark
 colorscheme solarized
 
+" zap trailing spaces
 nnoremap <leader>W :%s/\s\+$//<cr>:let @/=''<CR>
 nnoremap <leader>w <C-w>v<C-w>l
 nnoremap <C-h> <C-w>h
