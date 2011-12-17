@@ -87,9 +87,6 @@ let g:rbpt_colorpairs = [
     \ ]
 let g:rbpt_max = 16
 
-" NERDTree
-nnoremap <leader>nt :NERDTree<cr>
-
 " a.vim plugin command for switching between alternate files
 nnoremap <leader>a :A<cr>
 
