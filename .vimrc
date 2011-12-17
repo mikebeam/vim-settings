@@ -107,6 +107,7 @@ set nowrap
 
 " Command-T
 let g:CommandTMatchWindowReverse = 1
+let g:CommandTMaxHeight = 10
 
 " To switch between the currently open buffer and the previous one
 nnoremap <leader><leader> <c-^> 
