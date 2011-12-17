@@ -124,3 +124,14 @@ nnoremap <leader>A :Ack <c-r><c-w><CR>
 map <ScrollWheelLeft> <nop>
 map <ScrollWheelRight> <nop>
 
+" window
+nmap <leader>swh :topleft  vnew<CR>
+nmap <leader>swl :botright vnew<CR>
+nmap <leader>swk :topleft  new<CR>
+nmap <leader>swj :botright new<CR>
+" buffer
+nmap <leader>s<left>   :leftabove  vnew<CR>
+nmap <leader>s<right>  :rightbelow vnew<CR>
+nmap <leader>s<up>     :leftabove  new<CR>
+nmap <leader>s<down>   :rightbelow new<CR>
+
