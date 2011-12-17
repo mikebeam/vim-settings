@@ -113,6 +113,15 @@ let g:CommandTMatchWindowReverse = 1
 " To switch between the currently open buffer and the previous one
 nnoremap <leader><leader> <c-^> 
 
+" Ack configuration
+let g:ackprg="ack -H --nocolor --nogroup --column --ignore-dir=linux-x86_64 --ignore-dir=centos54-x86_64-gcc41"
+
+" open Ack
+"nnoremap <leader>a :Ack
+
+" run Ack against word under cursor
+nnoremap <leader>A :Ack <c-r><c-w><CR>
+
 " Magic mouse horizontal is really sensitive and annoying. Disable.
 map <ScrollWheelLeft> <nop>
 map <ScrollWheelRight> <nop>
