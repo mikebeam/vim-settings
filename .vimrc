@@ -113,3 +113,7 @@ let g:CommandTMatchWindowReverse = 1
 " To switch between the currently open buffer and the previous one
 nnoremap <leader><leader> <c-^> 
 
+" Magic mouse horizontal is really sensitive and annoying. Disable.
+map <ScrollWheelLeft> <nop>
+map <ScrollWheelRight> <nop>
+
