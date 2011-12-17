@@ -19,7 +19,7 @@ set showcmd
 set hidden
 set wildmenu
 set wildmode=list:longest
-set wildignore+=*.beam,*.o,.git
+set wildignore+=*.beam,*.o,.git,centos54-x86_64-gcc*,autom4te.cache
 set cursorline
 set ttyfast
 set ruler
