@@ -49,6 +49,8 @@ vnoremap <tab> %
 nnoremap j gj
 nnoremap k gk
 
+" setup completion
+set completeopt=
 
 nnoremap ; :
 
