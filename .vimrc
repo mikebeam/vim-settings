@@ -95,7 +95,7 @@ nnoremap <leader>a :A<cr>
 
 inoremap jj <ESC>
 
-set guifont=PanicSans:h11
+set guifont=Menlo:h11
 set guioptions-=T
 set guitablabel=%t
 "set up status line
