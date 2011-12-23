@@ -42,4 +42,4 @@ corelibs/
 .Trash
 .vim/doc/tags
 .vim/syntax/todolist.vim
-.vimrc.swp
+.*.swp
