@@ -111,7 +111,7 @@ set nowrap
 let g:CommandTMatchWindowReverse = 1
 let g:CommandTMaxHeight = 10
 
-" set ttimeoutlen=50
+set ttimeoutlen=50
 
 if &term =~ "xterm"
     let g:CommandTCancelMap     = ['<ESC>', '<C-c>']
