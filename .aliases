@@ -21,7 +21,6 @@ alias gcc 	'cc'
 alias j			'jobs'
 alias todo	'cat ./TODO'
 alias ftp	'ftp -i'
-alias vi    'mvim -c "au VimLeave * maca hide:"'
 
 # Directory stack shortcuts
 alias d		'dirs -v'
