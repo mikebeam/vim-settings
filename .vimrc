@@ -111,6 +111,14 @@ set nowrap
 let g:CommandTMatchWindowReverse = 1
 let g:CommandTMaxHeight = 10
 
+" set ttimeoutlen=50
+
+if &term =~ "xterm"
+    let g:CommandTCancelMap     = ['<ESC>', '<C-c>']
+    let g:CommandTSelectNextMap = ['<C-n>', '<C-j>', '<ESC>OB']
+    let g:CommandTSelectPrevMap = ['<C-p>', '<C-k>', '<ESC>OA']
+endif
+
 " To switch between the currently open buffer and the previous one
 nnoremap <leader><leader> <c-^> 
 
