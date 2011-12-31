@@ -28,6 +28,8 @@ set laststatus=2
 
 if has("relativenumber")
   set relativenumber
+else
+  set number
 endif
 
 if has("undofile")
