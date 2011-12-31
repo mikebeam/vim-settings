@@ -44,3 +44,4 @@ corelibs/
 .vim/syntax/todolist.vim
 .*.swp
 bin/gxt
+bin/vm
