@@ -3,7 +3,7 @@ alias ls="ls -GF"
 alias t="tmux"
 alias vm="ssh -Y mike@caprica-vm"
 
-if [ -e mvim ]; then
+if [ -e `which mvim` ]; then
   alias vi="mvim -v"
   alias vim="mvim -v"
 else
