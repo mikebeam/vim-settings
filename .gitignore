@@ -43,3 +43,4 @@ corelibs/
 .vim/doc/tags
 .vim/syntax/todolist.vim
 .*.swp
+bin/gxt
