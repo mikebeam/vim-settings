@@ -45,3 +45,4 @@ corelibs/
 .*.swp
 bin/gxt
 bin/vm
+.bash_profile_local
