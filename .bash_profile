@@ -1,7 +1,6 @@
 alias gs="git status"
 alias ls="ls -GF"
 alias t="tmux"
-alias vm="ssh -Y mike@caprica-vm"
 
 if [[ "$HOSTNAME" = caprica.local ]]; then
   alias vi="mvim -v"
