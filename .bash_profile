@@ -3,15 +3,17 @@ alias ls="ls -GF"
 alias t="tmux"
 
 if [[ "$HOSTNAME" = caprica.local ]]; then
-  alias vi="mvim -v"
-  alias vim="mvim -v"
+    alias vi="mvim -v"
+    alias vim="mvim -v"
 else
-  alias vi="vim"
+    alias vi="vim"
 fi
 
 cd() {
-  builtin cd "$@"
-  ls
+    builtin cd "$@"
+    ls
+}
+
 }
 
 PATH="$PATH:~/bin"
