@@ -1,6 +1,8 @@
 alias gs="git status"
 alias ls="ls -GF"
 alias t="tmux"
+alias tgss="named-tmux-session gss"
+alias tgal="named-tmux-session galaxy"
 
 if [[ "$HOSTNAME" = caprica.local ]]; then
     alias vi="mvim -v"
@@ -14,6 +16,8 @@ cd() {
     ls
 }
 
+named-tmux-session() {
+    tmux attach-session -t $1 || tmux new-session -s $1
 }
 
 PATH="$PATH:~/bin"
