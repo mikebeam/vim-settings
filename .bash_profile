@@ -1,3 +1,7 @@
+###
+###  .bash_profile
+###
+
 alias gs="git status"
 alias ls="ls -GF"
 alias t="tmux"
