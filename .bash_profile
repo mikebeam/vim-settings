@@ -25,7 +25,7 @@ named-tmux-session() {
 }
 
 PATH="$PATH:~/bin"
-PS1="\[\e[1;31m\][\!] \[\e[0;34m\]\u@\h:\[\e[1;35m\]\w\n\[\e[0;35m\]$\[\e[0m\] "
+PS1="\[\e[1;31m\][\!] \[\e[0;34m\]\u\[\e[1;36m\]@\[\e[0;34m\]\h:\[\e[1;35m\]\w\n\[\e[0;35m\]$\[\e[0m\] "
 HISTIGNORE="&:ls:[bf]g:exit:clear:history"
 
 if [[ -e .bash_profile_local ]]; then
