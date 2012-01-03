@@ -48,3 +48,4 @@ bin/vm
 .bash_profile_local
 .dropbox
 Dropbox
+bin/edit_worklog.sh
