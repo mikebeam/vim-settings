@@ -8,13 +8,6 @@ alias t="tmux"
 alias tgss="named-tmux-session gss"
 alias tgal="named-tmux-session galaxy"
 
-if [[ "$HOSTNAME" = caprica.local ]]; then
-    alias vi="mvim -v"
-    alias vim="mvim -v"
-else
-    alias vi="vim"
-fi
-
 cd() {
     builtin cd "$@"
     ls
