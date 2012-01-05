@@ -22,7 +22,7 @@ PS1="\[\e[1;31m\][\!] \[\e[0;34m\]\u@\h\[\e[1;36m\]:\[\e[1;35m\]\w\n\[\e[0;35m\]
 HISTIGNORE="&:ls:[bf]g:exit:clear:history"
 export MAKEFLAGS=-s
 
-if [[ -e .bash_profile_local ]]; then
-    source .bash_profile_local
+if [[ -e $HOME/.bash_profile_local ]]; then
+    source $HOME/.bash_profile_local
 fi
 
