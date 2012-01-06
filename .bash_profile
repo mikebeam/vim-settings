@@ -3,6 +3,7 @@
 ###
 
 alias gs="git status"
+alias ss="svn status"
 alias ls="ls -GF"
 alias t="tmux"
 alias tgss="named-tmux-session gss"
