@@ -49,3 +49,4 @@ bin/vm
 .dropbox
 Dropbox
 bin/edit_worklog.sh
+.pip
