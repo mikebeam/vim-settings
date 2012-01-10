@@ -159,3 +159,6 @@ noremap   <Down>   <NOP>
 noremap   <Left>   <NOP>
 noremap   <Right>  <NOP>
 
+" vimerl configuration
+let g:erlang_show_errors = 0
+
