@@ -6,6 +6,7 @@
 .bash_history
 .cshrc
 .cups/
+.gem/
 .cvspass
 .designer/
 .dvdcss/
@@ -50,3 +51,6 @@ bin/vm
 Dropbox
 bin/edit_worklog.sh
 .pip
+.vim/plugin/vitunes.vim
+bin/edit_worklog
+bin/now_playing
