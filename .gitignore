@@ -54,3 +54,4 @@ bin/edit_worklog.sh
 .vim/plugin/vitunes.vim
 bin/edit_worklog
 bin/now_playing
+.tmux.conf.local
