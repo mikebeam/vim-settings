@@ -22,6 +22,7 @@ PATH="$PATH:~/bin"
 PS1="\[\e[0;31m\][\!] \[\e[0;32m\]\T \[\e[0;34m\]\u@\h\[\e[1;36m\]:\[\e[1;35m\]\w\n\[\e[0;35m\]$\[\e[0m\] "
 HISTIGNORE="&:ls:[bf]g:exit:clear:history"
 export MAKEFLAGS=-s
+export EDITOR=vim
 
 if [[ -e $HOME/.bash_profile_local ]]; then
     source $HOME/.bash_profile_local
