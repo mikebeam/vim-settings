@@ -162,3 +162,4 @@ noremap   <Right>  <NOP>
 " vimerl configuration
 let g:erlang_show_errors = 0
 
+set pastetoggle=<F2>
