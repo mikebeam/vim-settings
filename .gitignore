@@ -55,3 +55,4 @@ bin/edit_worklog.sh
 bin/edit_worklog
 bin/now_playing
 .tmux.conf.local
+.gss
