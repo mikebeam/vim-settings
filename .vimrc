@@ -39,8 +39,8 @@ set incsearch
 set showmatch
 set hlsearch
 
-set list
-set listchars=tab:▸\ ,eol:¬
+"set list
+"set listchars=tab:▸\ ,eol:¬
 
 nnoremap <leader><space> :noh<cr>
 nnoremap <tab> %
