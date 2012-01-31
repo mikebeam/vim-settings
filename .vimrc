@@ -163,3 +163,6 @@ noremap   <Right>  <NOP>
 let g:erlang_show_errors = 0
 
 set pastetoggle=<F2>
+
+" Buffer Explorer
+noremap <tab><tab> :BufExplorer<CR>
