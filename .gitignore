@@ -1,6 +1,8 @@
 .CFUserTextEncoding
 .*.un~
 .DS_Store
+.inkscape-etc
+.config
 .Xauthority
 .bash_aliases
 .bash_history
