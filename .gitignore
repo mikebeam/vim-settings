@@ -1,4 +1,6 @@
 .CFUserTextEncoding
+.subversion/auth
+.*.tmp
 .*.un~
 .DS_Store
 .inkscape-etc
@@ -26,7 +28,6 @@
 .rnd
 .serverauth.*
 .ssh/
-.subversion/
 .tcsh_history
 .vim/.netrwhist
 .viminfo
@@ -58,3 +59,6 @@ bin/edit_worklog
 bin/now_playing
 .tmux.conf.local
 .gss
+bin/vncrmt
+.subversion/README.txt
+.subversion/servers
