@@ -26,7 +26,6 @@ set ruler
 set backspace=indent,eol,start
 set laststatus=2
 set relativenumber
-set undofile
 
 let mapleader = ","
 
