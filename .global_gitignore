@@ -1,3 +1,4 @@
 .*.swo
 .*.un~
 .*.swn
+.DS_Store
