@@ -62,3 +62,4 @@ bin/now_playing
 bin/vncrmt
 .subversion/README.txt
 .subversion/servers
+.vim/Powerline_default_default_compatible.cache
