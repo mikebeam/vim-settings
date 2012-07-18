@@ -165,3 +165,5 @@ set pastetoggle=<F2>
 
 " Buffer Explorer
 noremap <tab><tab> :BufExplorer<CR>
+
+set tags=./tags;/
