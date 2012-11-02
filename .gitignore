@@ -8,6 +8,7 @@
 .Xauthority
 .bash_aliases
 .bash_history
+.cisco
 .cshrc
 .cups/
 .gem/
@@ -63,3 +64,7 @@ bin/vncrmt
 .subversion/README.txt
 .subversion/servers
 .vim/Powerline_default_default_compatible.cache
+.anyconnect
+.CF89AA64
+.nchsoftware/switch.xml
+bin/jq
