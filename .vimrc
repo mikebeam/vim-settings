@@ -51,8 +51,6 @@ nnoremap k gk
 " setup completion
 set completeopt=
 
-nnoremap ; :
-
 set background=dark
 colorscheme solarized
 
