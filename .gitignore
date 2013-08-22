@@ -68,3 +68,10 @@ bin/vncrmt
 .CF89AA64
 .nchsoftware/switch.xml
 bin/jq
+src
+.cache
+.matplotlib
+.nbprofiler
+.netbeans
+.statsvn
+
